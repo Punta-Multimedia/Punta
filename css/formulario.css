@@ -1,0 +1,128 @@
+
+#contenedor-form{
+    background-color: #FF0000;
+    width: 50%;
+    align-items: center;
+    width: 450px;
+	height: 650px;
+	opacity: 0.8;
+	padding: 35px 45px 35px 50px;
+	margin: auto;/*Esta marge auto ayuda a que el margen centre al objeto en la pantalla*/
+    border-radius: 10px;
+	text-align: center;
+}
+#contenedor-form h2{
+    color: white;
+}
+
+.input{
+	font-size: 15px;
+	color: #3c3c3c;
+	line-height: 22px;
+    background-color: #FFF;
+    
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box; /*mantiene la propocion de la caja*/ 
+	border-radius: 5px;
+}
+.input:focus{
+	background-color: #FFF;
+	border: 1px solid #ff0000;
+	padding: 13px 13px 13px 54px;
+	color: #1d1d1b;
+}
+#nombre{
+	background-image: url(../img/user.png);
+	background-repeat: no-repeat;
+	background-position: 11px;
+}
+#email{
+	background-image: url(../img/mail.png);
+	background-repeat: no-repeat;
+	background-position: 11px;
+}
+#telefono{
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	background-position: 11px;
+}
+#mensaje{
+	background-image: url(../present/mensaje.png);
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: 11px 11px;
+}
+textarea{
+	width: 100%;
+	height: 200px;
+	line-height: 200px;
+	resize: vertical;
+}
+#enviar{
+    font-family: Typo Grotesk Rounded Regular;
+    font-weight: bolder;
+	float: left;
+	width: 100%;
+	height: 60px;
+    border-radius: 5px;
+    border: 1px solid white;
+	cursor:pointer;/*cursor de botón*/
+	background-color: #fff;
+	font-size: 20px;
+	color:#000;
+	padding-top: 10px;
+	transition: 0,8s;
+}
+#enviar:hover{
+	background-color: rgba(0,0,0,0);
+	color:#fff;
+}
+.transicion{
+	width: 0px;
+	height: 60px;
+	background-color: #f78181;
+	transition: 0.9s ease;
+	color:#fff;
+}
+.enviar:hover .transicion{
+	width: 100%}
+
+.enviar:hover .transicion{
+	width: 100%;
+	background-color: #FF0000;
+	color:#fff;
+}
+/*le da estilos al area de input y textarea*/
+input.error , textarea.error{
+	font-family: sans-serif;
+	font-size: 15px;
+	color: #3c3c3c;
+	line-height: 22px;
+	background-color: #f78181;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 9px;
+}
+/*Colocamos el color de placeholder de color blanco una vez se inicia la digitacion del campo*/
+input.error::-webkit-input-placeholder{
+	color:#fff;
+}
+textarea.error::-webkit-input-placeholder{
+	color:#fff;
+}
+@media only screen and (max-width: 500px){
+	#contenedor-form{
+		margin: auto;
+		width: 88%;
+		height: 600px;
+		padding-top: 5px;
+		padding-bottom: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+
+	}
+}

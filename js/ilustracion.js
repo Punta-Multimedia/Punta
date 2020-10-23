@@ -1,0 +1,2 @@
+var imagenes = [ ]
+var galeria 

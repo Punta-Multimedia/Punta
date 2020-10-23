@@ -1,0 +1,50 @@
+
+h2{
+	font-weight: 800;
+	color: #F00000;
+	margin-top: 30px;
+}
+.cajai{
+	background-color: #F00000;
+}
+.cajas{
+	padding: 30px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.row .column{
+	flex: 33.3%;
+	width: auto;
+	overflow: hidden;
+	padding: 15px;
+	height:  100%;
+}
+.row .column img{
+	margin-top: 2%;
+	width: 100%;
+	height: 100%; 
+}
+.circulo{
+	width: 40%;
+	margin-top: 20px;
+}
+.hola{
+	background-color: #F00000;
+}
+
+@media only screen and (max-width: 800px){
+	.row .column{
+		flex: 50%;
+	}
+}
+@media only screen and (max-width: 600px){
+	.row .column{
+		flex: 100%;
+	}
+}
+
+
+
