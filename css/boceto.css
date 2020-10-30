@@ -38,7 +38,10 @@ h3{
 	font-family: Typo Grotesk Rounded Regular;
 	padding: 20px 10px;
 }
-.exp{
+.exp p{
+	font-family: caviar dreams Regular;
+}
+.text{
 	font-family: caviar dreams Regular;
 }
 .hoja{
