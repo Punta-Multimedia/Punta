@@ -6,18 +6,6 @@ body{
 	padding: 0px;
 	margin: 0px;
 }
-@font-face{
-    font-family:caviar dreams Regular ;
-    src: url(../fonts/CaviarDreams.ttf);
-}
-@font-face{
-    font-family: Typo Grotesk Rounded Regular;
-    src: url(../fonts/Typo\ Grotesk\ Rounded\ Demo.otf);
-}
-@font-face{
-    font-family: Typo Grotesk Rounded Light;
-    src: url(../fonts/Typo\ Grotesk\ Rounded\ Light\ Demo.otf);
-}
 hr{
 	background-color: #F00000;
 	margin: none;
@@ -41,9 +29,7 @@ h3{
 .exp p{
 	font-family: caviar dreams Regular;
 }
-.text{
-	font-family: caviar dreams Regular;
-}
+
 .hoja{
 	align-items: center;
 	padding-top: 5px;
@@ -160,7 +146,7 @@ h5{
 .text {
   color: #FFf;
   font-size: 50px;
-  font-family: Typo Grotesk Rounded;
+  font-family: Typo Grotesk Rounded Regular;
   position: absolute;
   top: 50%;
   left: 50%;
