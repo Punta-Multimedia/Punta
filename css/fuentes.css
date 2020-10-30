@@ -1,8 +1,32 @@
 @font-face{
-    font-family: caviar dreams;
-    src: url(fonts/CaviarDreams.ttf);
+    font-family: ;
+    src: url(../fonts/CaviarDreams.ttf);
 }
 @font-face{
-    font-family: Typo Grotesk Rounded Demo;
-    src: url(fonts/TypoGroteskRoundedDemo.ttf);
+    font-family: ;
+    src: url(../fonts/CaviarDreams_Bold.ttf);
+}
+@font-face{
+    font-family: ;
+    src: url(../fonts/CaviarDreams_BoldItalic.ttf);
+}
+@font-face{
+    font-family: ;
+    src: url(../fonts/CaviarDreams_Italic.ttf);
+}
+@font-face{
+    font-family: ;
+    src: url(../fonts/Typo\ Grotesk\ Rounded\ Demo.otf);
+}
+@font-face{
+    font-family: ;
+    src: url(../fonts/Typo\ Grotesk\ Rounded\ Italic\ Demo.otf);
+}
+@font-face{
+    font-family: ;
+    src: url(../fonts/Typo\ Grotesk\ Rounded\ Light\ Demo.otf);
+}
+@font-face{
+    font-family: ;
+    src: url(../fonts/Typo\ Grotesk\ Rounded\ Light\ Italic\ Demo.otf);
 }
