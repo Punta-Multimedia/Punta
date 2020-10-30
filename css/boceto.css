@@ -37,9 +37,12 @@ h3{
 	font-family: Typo Grotesk Rounded Regular;
 	font-size: 1.2em;
 }
+p .exp{
+	font-family: caviar dreams Regular;
+}
 .exp{
 	font-size: 1.1em;
-	font-family: caviar dreams Regular;
+	
 	text-align: justify;
 }
 .habilidad{
