@@ -27,7 +27,7 @@ h3{
 	padding: 20px 10px;
 }
 /* menu */
-.sidebar-nav .sidebar-brand a{
+.sidebar-nav .sidebar-brand .js-scroll-trigger{
 	font-family: Typo Grotesk Rounded Regular;
 }
 .sidebar-nav-item a {
