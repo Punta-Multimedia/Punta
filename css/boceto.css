@@ -26,6 +26,14 @@ h3{
 	font-family: Typo Grotesk Rounded Regular;
 	padding: 20px 10px;
 }
+/* menu */
+.sidebar-brand a{
+	font-family: Typo Grotesk Rounded;
+}
+.sidebar-nav-item a {
+	font-family:caviar dreams Regular ;
+}
+/* section */
 .hoja{
 	align-items: center;
 	padding-top: 5px;
