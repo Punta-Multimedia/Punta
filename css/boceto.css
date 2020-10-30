@@ -13,6 +13,7 @@ body{
 @font-face{
     font-family: ;
     src: url(../fonts/Typo\ Grotesk\ Rounded\ Demo.otf);
+}
 hr{
 	background-color: #F00000;
 	margin: none;
