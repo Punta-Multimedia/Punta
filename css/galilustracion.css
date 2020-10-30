@@ -35,6 +35,13 @@ h2{
 .hola{
 	background-color: #F00000;
 }
+.construccion{
+	width: 100%;
+	background-color: black;
+}
+.construccion img{
+	width: 100%;
+}
 
 @media only screen and (max-width: 800px){
 	.row .column{
