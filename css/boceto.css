@@ -27,7 +27,7 @@ h3{
 	padding: 20px 10px;
 }
 /* menu */
-.sidebar-brand a{
+.sidebar-nav .sidebar-brand a{
 	font-family: Typo Grotesk Rounded;
 }
 .sidebar-nav-item a {
