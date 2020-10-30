@@ -20,15 +20,25 @@ div h2{
 	font-size: 2em;
 	font-family: Typo Grotesk Rounded Regular;
 	margin-top: 10px;
-	padding: 10px 0px 0px 0px;
 	color: #FF0000;
 }
 h3{
 	font-family: Typo Grotesk Rounded Regular;
 	padding: 20px 10px;
 }
-.exp{
+.hoja{
+	align-items: center;
+	padding-top: 5px;
+	width:200px;
+	height: 40px; 
+	text-decoration: none;
+	background-color: #F00000;
+	border-radius: 25px;
+	font-family: Typo Grotesk Rounded Regular;
 	font-size: 1.2em;
+}
+.exp{
+	font-size: 1.1em;
 	text-align: justify;
 }
 .habilidad{
@@ -141,6 +151,15 @@ h5{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.pdf{
+	background-color: #FF0000;
+	padding: 30px;
+}
+iframe{
+	width: 1000px;
+	height: 600px;
+	border-radius: 5px;
+}
 footer{
 	padding: 10px;
 	color: #fff;
@@ -159,6 +178,7 @@ footer{
 @media (max-width: 900px){
 	div h2{
 		font-size: 25px;
+		padding-top: 20px;
 	}
 }
 @media (max-width: 900px){
@@ -213,3 +233,10 @@ footer{
 	}
 }
 
+/* responsive pdf */
+@media (max-width: 900px){
+	iframe{
+		display: block;
+		width: 300px;
+	}
+}
