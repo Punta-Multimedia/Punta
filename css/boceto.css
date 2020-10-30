@@ -26,10 +26,6 @@ h3{
 	font-family: Typo Grotesk Rounded Regular;
 	padding: 20px 10px;
 }
-.exp p{
-	font-family: caviar dreams Regular;
-}
-
 .hoja{
 	align-items: center;
 	padding-top: 5px;
@@ -43,6 +39,7 @@ h3{
 }
 .exp{
 	font-size: 1.1em;
+	font-family: caviar dreams Regular;
 	text-align: justify;
 }
 .habilidad{
@@ -88,6 +85,9 @@ h5{
 	font-family: caviar dreams Regular;
 	margin-top: 10px;
 	padding: 5px;
+}
+h6{
+	font-family: caviar dreams Regular;
 }
 .caja{
 	margin-top: 15px;
