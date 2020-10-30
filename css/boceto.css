@@ -75,7 +75,6 @@ h3{
 .row{
 	margin: auto;
 }
-}
 .row .ser{
 	display: block;
 }
@@ -154,6 +153,9 @@ h5{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.text p{
+	font-family: Typo Grotesk Rounded Regular;
 }
 .pdf{
 	background-color: #FF0000;
